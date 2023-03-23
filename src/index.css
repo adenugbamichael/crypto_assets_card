@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tomorrow", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-[Tomorrow];
+  }
+}
+
+.dev1 {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.dev2 {
+  padding: 1.33px 1.34px 1.34px 1.33px;
+  position: relative;
+  margin-right: 16px;
+}
+
+.dev3 {
+  opacity: 0.9;
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 32px;
+  color: rgba(236, 240, 255, 1);
+}
+.pad {
+  padding: 49.92px 0.26px 0 1px;
+}
+
+.dev4 {
+  background-size: 100% 100%;
+  background-image: url(./assets/bitcircle.svg);
+  padding: 25.08px 25.09px 25.08px 25.08px;
+  left: 96.37px;
+  top: -0.08px;
+}
+
+.dev5 {
+  background-size: 100% 100%;
+  background-image: url(./assets/bitframe.svg);
+  padding: 71.08px 23.74px 11px 20px;
+}
+.dev6 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(115, 123, 174, 1);
+  opacity: 0.9;
+}
+.dev7 {
+  background-color: rgba(20, 23, 43, 1);
+  border-radius: 17px;
+  padding: 4.5px 1px 4.5px 0;
+  position: relative;
+}
+
+.dev8 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(236, 240, 255, 1);
+  opacity: 0.9;
+}
+
+.dev9 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(0, 255, 163, 1);
+  opacity: 0.9;
+  right: 1px;
+  top: 4.5px;
+}
+
+.dev0 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(90, 95, 125, 1);
+  opacity: 0.9;
+}
+.dev11 {
+  background-color: rgba(20, 23, 43, 1);
+  border-radius: 17px;
+  padding: 4.5px 1px 4.5px 0;
+}
+
+.dev12 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(236, 240, 255, 1);
+  opacity: 0.9;
+}
+
+.dev13 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(90, 95, 125, 1);
+  opacity: 0.9;
+}
+
+.dev14 {
+  background-color: rgba(20, 23, 43, 1);
+  border-radius: 30px;
+  padding: 9px 14.74px 9px 15px;
+}
+
+.dev15 {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+}
+
+.dev16 {
+  background-color: rgba(237, 240, 244, 1);
+  border-radius: 50%;
+}
+
+.dev17 {
+  opacity: 0.9;
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(90, 95, 125, 1);
+}
+
+.sol1 {
+  background-size: 100% 100%;
+  background-image: url(./assets/solcircle.svg);
+  padding: 25.08px 25.09px 25.08px 25.08px;
+  left: 96.37px;
+  top: -0.08px;
+}
+.sol2 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(255, 77, 77, 1);
+  opacity: 0.9;
+  right: 1px;
+  top: 4.5px;
+}
+.sol3 {
+  background-size: 100% 100%;
+  background-image: url(./assets/solframe.svg);
+  padding: 71.08px 23.74px 11px 20px;
+}
+
+.eth1 {
+  background-size: 100% 100%;
+  background-image: url(./assets/etherframe.svg);
+  padding: 71.08px 23.74px 11px 20px;
+}
+.eth2 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(255, 77, 77, 1);
+  opacity: 0.9;
+  right: 1px;
+  top: 4.5px;
+}
+.eth3 {
+  background-size: 100% 100%;
+  background-image: url(./assets/ethercircle.svg);
+  padding: 25.08px 25.09px 25.08px 25.08px;
+  left: 96.37px;
+  top: -0.08px;
+}
+
+.bnb1 {
+  background-size: 100% 100%;
+  background-image: url(./assets/bnbcircle.svg);
+  padding: 25.08px 25.09px 25.08px 25.08px;
+  left: 96.37px;
+  top: -0.08px;
+}
+.bnb2 {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(0, 255, 163, 1);
+  opacity: 0.9;
+  right: 1px;
+  top: 4.5px;
+}
+.bnb3 {
+  background-size: 100% 100%;
+  background-image: url(./assets/bnbframe.svg);
+  padding: 71.08px 23.74px 11px 20px;
+}
+
+.shib1 {
+  background-size: 100% 100%;
+  background-image: url(./assets/shibcircle.svg);
+  padding: 25.08px 25.09px 25.08px 25.08px;
+  left: 96.37px;
+  top: -0.08px;
+}
+.shib2 {
+  background-size: 100% 100%;
+  background-image: url(./assets/shibframe.svg);
+  padding: 71.08px 23.74px 11px 20px;
+}
+.shib3 {
+  font-weight: 600;
+  line-height: 31px;
+  color: rgba(255, 77, 77, 1);
+  text-transform: uppercase;
+  opacity: 0.9;
+  right: 1px;
+  top: 4.5px;
+}
